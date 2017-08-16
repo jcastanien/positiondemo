@@ -1,0 +1,41 @@
+
+h1 {
+	margin-left: 100px;
+	margin-right: 100px;	
+}
+
+p {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
+.container {
+	width: 800px;
+	border: 1px red solid;
+}
+
+.fixed {
+	height: 150px;
+	width: 250px;
+	background-color: #666;
+	position: fixed;
+	top: 0;
+}
+
+.relative {
+	height: 250px;
+	width: 500px;
+	background-color: #666;
+	position: relative;
+	left: 100px;
+}
+
+.absolute {
+	height: 150px;
+	width: 250px;
+	background-color: #888;
+	position: absolute;
+	bottom: 0px;
+	right: 0px
+}
